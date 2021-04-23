@@ -66,7 +66,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                 <th></th>
               </tr>
             </thead>
-          </table>
+          
           <tbody>
             {allEpisodes.map(episode => {
               return(
@@ -97,6 +97,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
               )
             })}
           </tbody>
+          </table>
       </section>
     </div>
   )
