@@ -35,18 +35,18 @@
                  flex: 1;
                  margin-left: 1rem;
 
-                 a{
+                 a {
                     display: block;
-                    color: var(--gray-100);
+                    color: var(--gray-800);
                     font-family: Lexend, sans-serif;
                     font-weight: 600;
                     text-decoration: none;
                     line-height: 1.4rem;
-
-                    &:hover{
-                        text-decoration: underline;
+          
+                    &:hover {
+                      text-decoration: underline;
                     }
-                }
+                  }
             
                 p{
                     font-size: 0.875rem;
@@ -133,7 +133,7 @@
             border-radius: 0.5rem;
             }
             a{
-                color: var(--gray-800);
+                color: var(--gray-800) ;
                 font-family: Lexend, sans-serif;
                 font-weight: 600;
                 text-decoration: none;

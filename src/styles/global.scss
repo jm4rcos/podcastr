@@ -32,11 +32,6 @@
         font-size: 87.5%; // 14px
     }
 }
-@media (max-width: 900px) {
-    html {
-      font-size: 90%;
-    }
-  }
 
 body{
     background: var(--gray-50);
@@ -60,4 +55,9 @@ h2{
 }
 button{
     cursor: pointer;
+}
+@media (max-width: 1600px) {
+    html {
+      font-size: 80%;
+    }
 }
