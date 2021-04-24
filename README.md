@@ -33,14 +33,8 @@
 * [How to Run](#construction_worker-how-to-run)
 
 
-
-<div>
-   <img src="./.github/screenshot-1.png" width="400px">
-   <img src="./.github/screenshot-2.png" width="400px">
-</div>
-
 # :eyes: Demo Website
-👉  demo: https://podcastr-nlw-azure.vercel.app/
+👉  demo: https://site.com/
 
 # :computer: Technologies
 This project was made using the follow technologies:
