@@ -8,6 +8,7 @@ import {convertDurationToTimeString} from '../../utils/convertDurationToTimeStri
 import styles from './episode.module.scss'
 
 import Link from 'next/link'
+import { usePlayer } from '../../contexts/PlayerContext'
 
 
 
@@ -28,12 +29,13 @@ type EpisodeProps = {
 }
 
 export default function Episode({episode}: EpisodeProps){
+    const { play } = usePlayer()
 
     return(
         <div className={styles.episode}>
             <div className={styles.thumbnailContainer}>
                 <Link href='/'>
-                <button type='button'>
+                <button type='button' onClick={() => play(episode)}>
                     <img src="/arrow-Left.svg" alt="Voltar"/>
                 </button>
                 </Link>
