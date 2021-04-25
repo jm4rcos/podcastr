@@ -35,7 +35,7 @@
 # :eyes: Demo Website
 
 =======
-👉  demo: https://podcastr.vercel.app/
+👉  demo: https://podcastr-jm4rcos.vercel.app
 
 # :computer: Technologies
 This project was made using the follow technologies:
