@@ -16,7 +16,6 @@
 
 </p>
 
-> :rocket: Project made in NLW #5. @Rocketseat
 
 
 <div align="center">
@@ -35,7 +34,6 @@
 
 # :eyes: Demo Website
 
-👉  demo: https://site.com/
 =======
 👉  demo: https://podcastr.vercel.app/
 
